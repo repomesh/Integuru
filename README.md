@@ -1,12 +1,12 @@
-# Integuru
+# Integuru v0
 
-An AI agent that generates integration code by reverse-engineering platforms' internal APIs.
+First version of the AI agent that generates integration code by reverse-engineering platforms' internal APIs.
 
-## Integuru in Action
+## Integuru v0 in Action
 
 ![Integuru in action](./integuru_demo.gif)
 
-## What Integuru Does
+## What Integuru v0 Does
 
 You use ```create_har.py``` to generate a file containing all browser network requests, a file with the cookies, and write a prompt describing the action triggered in the browser. The agent outputs runnable Python code that hits the platform's internal endpoints to perform the desired action.
 
